@@ -1,16 +1,13 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
-    <firstcomponent></firstcomponent>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import firstcomponent from './components/firstcomponent'
 export default {
   name: 'App',
-  components:{firstcomponent}
 }
 </script>
 
