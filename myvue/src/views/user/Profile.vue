@@ -5,8 +5,10 @@
 </template>
 
 <script>
+
 export default {
-    name:"UserProfile"
+    name:"UserProfile",
+    
 }
 </script>
 
